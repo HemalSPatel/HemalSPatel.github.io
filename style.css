@@ -1,14 +1,44 @@
 
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 
+:root{
+    --nav-icon-width: 50px;
+    --nav-border-width: 8px;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    font-family: 'Exo', sans-serif;
+}
+
+.page-container {
+    height: inherit;
+    display: flex;
+}
+.main {
+    height: inherit;
+    padding: 0;
+    padding-left: var(--nav-border-width);
+    overflow-y: auto;
+}
+.nav {
+    width: 200px;
+    height: inherit;
+    position: relative;
+    background-color: #4e54c8;
+    transition: width 0.2s;
+    flex-shrink: 0;
+}
+.nav--collapsed {
+    width: var)var(--nav-icon-width)
+}
+
 *{
     margin: 0px;
     padding: 0px;
 }
 
-body{
-    font-family: 'Exo', sans-serif;
-}
 
 
 .context {
