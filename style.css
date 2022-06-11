@@ -31,7 +31,7 @@ body{
     flex-shrink: 0;
 }
 .nav--collapsed {
-    width: var)var(--nav-icon-width)
+    width: var(--nav-icon-width);
 }
 
 *{
