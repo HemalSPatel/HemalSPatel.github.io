@@ -54,6 +54,10 @@ body{
     flex-shrink: 0;
 }
 
+.nav__label {
+    white-space: nowrap;
+}
+
 *{
     margin: 0px;
     padding: 0px;
