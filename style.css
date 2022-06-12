@@ -45,6 +45,12 @@ body{
     background-color: rgb(142, 172, 212);
 }
 
+.nav__icon-container {
+    width: var(--nav-border-width);
+    height: var(--nav-icon-width);
+    display: flex;
+}
+
 *{
     margin: 0px;
     padding: 0px;
