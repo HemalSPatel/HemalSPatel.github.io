@@ -39,6 +39,7 @@ body{
     align-items: center;
     color: rgba(0,0,0,.75);
     text-decoration: none;
+    left: 15px;
 }
 
 .nav__link:hover {
