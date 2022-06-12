@@ -34,6 +34,10 @@ body{
     width: var(--nav-icon-width);
 }
 
+.nav--collapsed .nav__label {
+    display:none;
+}
+
 .nav__link {
     display: flex;
     align-items: center;
