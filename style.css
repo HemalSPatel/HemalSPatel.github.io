@@ -39,7 +39,7 @@ body{
     align-items: center;
     color: rgba(0,0,0,.75);
     text-decoration: none;
-    left: 15px;
+    
 }
 
 .nav__link:hover {
@@ -47,7 +47,7 @@ body{
 }
 
 .nav__icon-container {
-    width: var(--nav-border-width);
+    width: var(--nav-icon-width);
     height: var(--nav-icon-width);
     display: flex;
     align-items: center;
