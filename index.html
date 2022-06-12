@@ -90,7 +90,20 @@
 
         </div>
 
-    
+        <script>
+            //Navigation
+            {
+                const collapsedClass = "nav--collapsed";
+                const lsKey = "navCollapsed";
+
+                const nav = document.querySelector(".nav");
+                const navBorder = nav.querySelector(".nav__border");
+
+                navBorder.addEventListener("click", () => {
+                    nav.classList.toggle(collapsedClass);
+                });
+            }
+        </script>
 
 
     </body>
