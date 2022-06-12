@@ -21,8 +21,7 @@ body{
     padding: 0;
     padding-left: var(--nav-border-width);
     overflow-y: auto;
-    top: 10vh;
-    left: 20vh;
+    
 }
 .nav {
     width: 200px;
