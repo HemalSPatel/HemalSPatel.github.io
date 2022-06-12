@@ -59,6 +59,21 @@ body{
     white-space: nowrap;
 }
 
+.nav__border {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    width: var(--nav-border-width);
+    height: inherit;
+    background-color: rgb(142, 172, 212);
+    transition: background-color 0.2s;
+    cursor: ew-resize;
+}
+
+.nav__border:hover {
+    background-color: rgb(123, 160, 207);
+}
+
 *{
     margin: 0px;
     padding: 0px;
