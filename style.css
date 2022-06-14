@@ -22,6 +22,7 @@ body{
     padding-left: var(--nav-border-width);
     display: flex;
     align-items: center;
+    justify-content: center;
     overflow-y: auto;
     
 }
