@@ -18,10 +18,9 @@ body{
 }
 .main {
     height: inherit;
-    padding: 0;
-    padding-top: 50vh;
-    padding-left: 50vh;
-    overflow-y: auto;
+    padding: 50vh;
+
+    overflow-y: hidden;
     
 }
 .nav {
