@@ -20,7 +20,7 @@ body{
     height: inherit;
     padding: 0;
     padding-left: var(--nav-border-width);
-    display: flex;
+    display: table-column;
     align-items: center;
     justify-content: center;
     overflow-y: auto;
@@ -57,7 +57,7 @@ body{
 .nav__icon-container {
     width: var(--nav-icon-width);
     height: var(--nav-icon-width);
-    display: table-column;
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
