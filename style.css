@@ -19,7 +19,8 @@ body{
 .main {
     height: inherit;
     padding: 0;
-    padding-left: var(--nav-border-width);
+    padding-top: 20vh;
+    padding-left: var(--nav-border-width)+ 20vh;
     overflow-y: auto;
     
 }
