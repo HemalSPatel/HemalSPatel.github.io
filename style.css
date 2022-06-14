@@ -20,7 +20,7 @@ body{
     height: inherit;
     padding: 0;
     padding-top: 20vh;
-    padding-left: var(--nav-border-width)+ 20vh;
+    padding-left: 40vh;
     overflow-y: auto;
     
 }
