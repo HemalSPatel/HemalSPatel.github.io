@@ -18,9 +18,11 @@ body{
 }
 .main {
     height: inherit;
-    padding: 50vh;
-
-    overflow-y: hidden;
+    padding: 0;
+    padding-left: var(--nav-border-width);
+    display: flex;
+    align-items: center;
+    overflow-y: auto;
     
 }
 .nav {
