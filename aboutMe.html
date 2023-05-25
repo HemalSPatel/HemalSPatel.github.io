@@ -1,33 +1,66 @@
 <!DOCTYPE html>
 <html>
-<body>
-    <title>
-        About Me
-    </title>
+<head>
+    <title>About Me</title>
     <style>
-        body{
+        body {
             background-color: lightsteelblue;
-        }
-        
-        .center{
-            text-align:center;
-            display:block;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
         }
 
+        h1 {
+            text-align: center;
+            margin-top: 0;
+        }
+
+        p {
+            text-align: justify;
+            line-height: 1.5;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .navbar a {
+            margin: 0 10px;
+        }
+
+        .content {
+            max-width: 600px;
+            margin: 0 auto;
+        }
     </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html"><h2>Home</h2></a>
+    </div>
 
-<h1> Who Am I? </h1>
+    <div class="content">
+        <h1>Who Am I?</h1>
+        <p>
+            I am a Junior at Rutgers University New Brunswick, currently looking for a summer internship as a software engineer.
+            Problem-solving is something I find enjoyable, which is why I chose to enter this field.
+            I plan on using my skills to develop innovative solutions for companies with the goal of starting my own in the future.
+        </p>
 
-<h1> Interests </h1>
-
-<h1> Goals </h1>
-
-<a href="index.html"> 
-    <h2 class="center">Home</h2>
-</a>
-
-     
- 
- 
+        <h1>Interests</h1>
+        <p>
+            Fitness, Nature, Photography, Music
+        </p>
+    </div>
 </body>
 </html>
