@@ -2,14 +2,31 @@
 <html>
 <head>
     <title>Projects</title>
+    
     <style>
-        body {
+        /* body {
             background-color: #f7f7f7;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+        } */
+        body {
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            height: 100vh;
         }
-        
+        @keyframes gradient {
+	        0% {
+		        background-position: 0% 50%;
+	        }
+	        50% {
+		        background-position: 100% 50%;
+	        }
+	        100% {
+		        background-position: 0% 50%;
+	        }
+        }
         .container {
             max-width: 800px;
             margin: 0 auto;
@@ -55,6 +72,11 @@
             font-size: 24px;
             color: #333;
             margin-bottom: 10px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .project-title:hover {
+            color: #ff6600; /* Change to your desired hover color */
         }
 
         .project-description {
@@ -70,9 +92,17 @@
          }
 
         .image-container img {
-          display: inline-block;
-          margin-right: 10px;
-          max-height: 200px;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+            display: inline-block;
+            margin-right: 10px;
+            max-height: 200px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-container img.show {
+            opacity: 1;
         }
 
         @media only screen and (max-width: 600px) {
@@ -136,5 +166,17 @@
 
         <a href="index.html"><h2 class="center">Home</h2></a>
     </div>
+
+    <script>
+        // JavaScript to add fade-in animation to images on load
+        document.addEventListener("DOMContentLoaded", function() {
+            const images = document.querySelectorAll(".image-container img");
+            images.forEach(function(image) {
+                image.addEventListener("load", function() {
+                    image.classList.add("show");
+                });
+            });
+        });
+    </script>
 </body>
 </html>

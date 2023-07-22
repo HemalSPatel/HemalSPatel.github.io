@@ -2,12 +2,31 @@
 <html>
 <head>
     <title>About Me</title>
+    <link rel="stylesheet" href="style2.css"> 
     <style>
-        body {
+        /* body {
             background-color: #f7f7f7;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+        } */
+        body {
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            height: 100vh;
+        }
+
+        @keyframes gradient {
+	        0% {
+		        background-position: 0% 50%;
+	        }
+	        50% {
+		        background-position: 100% 50%;
+	        }
+	        100% {
+		        background-position: 0% 50%;
+	        }
         }
         
         .container {
@@ -88,9 +107,10 @@
     </style>
 </head>
 <body>
+    
     <div class="container">
         <h1>About Me</h1>
-        <p>Hello, I'm [Your Name], a Junior at Rutgers University New Brunswick, passionate about software engineering and problem-solving. I thrive on the challenges that come with this field and enjoy developing innovative solutions for companies. My ultimate goal is to establish my own company and continue creating impactful solutions for the world.</p>
+        <p>Hello, I'm Hemal, a Senior at Rutgers University New Brunswick, passionate about software engineering and problem-solving. I thrive on the challenges that come with this field and enjoy developing innovative solutions for companies. My ultimate goal is to establish my own company and continue creating impactful solutions for the world.</p>
 
         <img src="profile_picture.jpg" alt="Profile Picture">
 
@@ -111,5 +131,6 @@
         
         <a href="index.html"><h2 class="center">Home</h2></a>
     </div>
+
 </body>
 </html>
